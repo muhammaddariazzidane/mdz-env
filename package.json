@@ -1,0 +1,27 @@
+{
+  "name": "mdz-env",
+  "version": "1.0.0",
+  "description": "A lightweight and type-safe utility for parsing environment variables in Node.js applications.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "keywords": ["env", "environment", "variables", "parser", "typescript", "node"],
+  "author": "Muhammad Dariaz Zidane",
+  "license": "ISC",
+  "packageManager": "pnpm@10.7.0",
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "@vitest/coverage-v8": "^3.2.4",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}
